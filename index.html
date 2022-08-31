@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Google Clone - Improved</title>
+    <link rel="icon" href="favicon.ico" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li class="app-icons">
+              <a href="#" aria-label="Google apps">
+                <ion-icon name="apps-outline" size="large" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <img src="./assets/profpic.jpg" alt="Profile picture" />
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <img
+          class="google-logo"
+          src="./assets/googlelogo.png"
+          alt="Google logo"
+        />
+        <form>
+          <label for="search" class="sr-only">Search</label>
+          <div class="input-wrapper">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            <input
+              type="search"
+              id="search"
+              name="q"
+              placeholder="Search Google"
+              aria-label="Search Google"
+            />
+            <ion-icon name="mic-outline" size="large" aria-hidden="true"></ion-icon>
+          </div>
+          <div class="btn-wrapper">
+            <button type="submit">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>
+          </div>
+        </form>
+        <p class="languages">
+          Google offered in:
+          <a href="#">Português (Portugal)</a>
+          <a href="#">Kiswahili</a>
+          <a href="#">Chichewa</a>
+          <a href="#">ChiShona</a>
+        </p>
+      </main>
+      <footer>
+        <p>Mozambique</p>
+        <div class="footer-links">
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">How Search works</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
